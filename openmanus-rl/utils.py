@@ -1,3 +1,5 @@
+import os
+
 from transformers import AutoTokenizer, PreTrainedTokenizer
 from trl import ModelConfig
 
@@ -23,7 +25,7 @@ def get_tokenizer(
 
     return tokenizer
 
-import os
+
 
 
 def init_wandb_training(training_args):
